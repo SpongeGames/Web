@@ -1,0 +1,103 @@
+* {
+    font-family: Poppins,Helvetica,system-ui,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    background-color: #363636;
+}
+
+  .titleimg {
+      margin-left: auto;
+      display: flex;
+      margin-right: auto;
+      width: 130px;
+      height: 130px;
+      transition: ease-in-out 0.5s;
+  }
+
+  .titletext {
+      color: whitesmoke;
+      text-shadow: 1px 1px 20px #000;
+      text-align: center;
+      transition: ease-in-out 0.5s;
+  }
+
+  .subtitletext {
+    color: rgb(177, 177, 177);
+    text-shadow: 1px 1px 20px #000;
+    text-align: center;
+    transition: ease-in-out 0.5s;
+    font-size: 15px;
+  }
+
+  .chisiamo {
+      background: #585858;
+      align-items: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      color: aliceblue;
+      transition: ease-in-out 0.5s;
+      margin-bottom: 150px;
+      font-size: 6px;
+  }
+
+  .btn {
+      background: rgb(243, 199, 2);
+      width: 130px;
+      height: 50px;
+      border-radius: 17px;
+      border: none;
+      font-size: 20px;
+      color: whitesmoke;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      transition: ease-in-out 0.1s;
+      border-bottom: 5px solid rgb(206, 168, 0);
+      transition: 0.4s ease-in-out;
+      box-shadow: inset 30 #000 ;
+  }
+
+  .btn:hover {
+      background: rgb(235, 211, 106);
+      border-bottom: 5px solid rgb(190, 169, 75);
+      cursor: pointer;
+      transition: none;
+      transition: 0.4s ease-in-out;
+  }
+
+  .btn:active {
+      border-bottom: none;
+      transition: 0.4s ease-in-out;
+      box-shadow: inset 0 130px 0 0 #fff0bd;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    min-height: 15vh;
+    border-radius: 30px;
+    background: none;
+  }  
+
+  .iniziopag {
+      margin-bottom: 250px;
+      transition: ease-in-out 1s;
+  }
+
+  .spintachisiamo {
+      margin-bottom: 350px;
+  }
+
+  .estereg {
+      border: none;
+      color: #363636;
+  }
+
+  .gcse-search {
+      font-family: Poppins;
+      color: whitesmoke;
+      border-radius: 30px;
+  }
