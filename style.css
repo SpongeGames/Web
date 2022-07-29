@@ -4,7 +4,8 @@
 }
 
 @font-face {
-  src: url(MinecraftTen-VGORe.ttf);
+    font-family: MinecraftTen;
+    src: url(MinecraftTen-VGORe.ttf);
 }
 
   .titleimg {
