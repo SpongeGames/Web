@@ -1,11 +1,12 @@
 * {
     font-family: MinecraftTen;
-    background-color: #363636;
+    background: url("https://cdn.discordapp.com/attachments/956192612501553152/1006850933352824964/2022-07-30_15.33.19.png") no-repeat center center fixed;
+    color-scheme: dark;
 }
 
 @font-face {
-    font-family: MinecraftTen;
-    src: url(MinecraftTen-VGORe.ttf);
+    font-family: "MinecraftTen";
+    src: url('MinecraftTen-VGORe.ttf');
 }
 
   .titleimg {
@@ -18,15 +19,13 @@
   }
 
   .titletext {
-      color: whitesmoke;
-      text-shadow: 1px 1px 20px #000;
+      color: white;
       text-align: center;
       transition: ease-in-out 0.5s;
   }
 
   .subtitletext {
     color: rgb(177, 177, 177);
-    text-shadow: 1px 1px 20px #000;
     text-align: center;
     transition: ease-in-out 0.5s;
     font-size: 15px;
